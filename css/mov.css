@@ -1,0 +1,217 @@
+/*FUENTES*/
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+*{
+	font-family: 'Didact Gothic', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	width: 100%;
+	font-size: 1.2em;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0px 0px 5px 0px;
+}
+nav ul li{
+	float: left;
+	margin: 0px -15px;
+	padding: 10px 0px 0px 0px;
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: .3em .5em;
+	margin: 0em .5e;
+	display: block;
+	color: white;
+	transition: color 1s, transform 3s;
+}
+nav ul li a:hover{
+	color: #AAA;
+	transition: scale(1.3);
+}
+/*Estilos iniciales*/
+body{
+	margin: 0px;
+	background-color: #F0F3F4;
+	color:#3498DB;
+}
+h1{
+	font-size: 1.3em;
+	text-align: center;
+	color: #21618C;
+}
+/*PARTE SUPERIOR*/
+#superior{
+	width: 100%;
+	padding: 30px 0px;
+	background-color: #3498DB;
+}
+#superior #encabezado #logo{
+	margin: 10px 0px;
+	width: 120%;
+	height: auto;
+}
+#encabezado{
+	margin: 0px auto;
+	width: 90%;
+}
+#descripcion{
+	width: 100%;
+}
+#descripcion p{
+	margin: 20px 0px 10px 0px;
+	color: white;
+	line-height: 140%;
+	text-align: justify;
+	font-size: 0.8em;
+}
+
+#imgDesc img{
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+#imgDesc {
+	overflow: auto;
+	width: 100%;
+}
+
+@keyframes cambio{
+		0%{
+		left: -0;
+	}
+	25%{
+		left: -100%;
+	}
+
+	50%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	100%{
+        left: 5%;
+	}
+
+}
+
+
+
+/*Contenido principal de las paginas*/
+#contenido{
+	width: 90%;
+	margin: 0px auto;
+	overflow: auto;
+}
+/*pie de pagina*/
+footer{
+	text-align: center;
+	margin: 0;
+	font-size: .9em;
+	line-height: 2;
+	clear: both;
+	background-color: #3498DB;
+	color: white;
+	width: 100%;
+}
+/*CONTENIDO DE LA PAGINA INDEX*/
+.plan{
+	width: 92%;
+	padding: 10px 2%;
+	background-color: white;
+	margin: 20px 1%;
+	border: solid 1px black;
+	border-radius: 10px;
+	text-align: justify;
+}
+.plan img{
+	width: 100%;
+	height: auto;
+}
+.plan p{
+	font-size: 0.8em;
+}
+.plan h1{
+	font-size: 1em;
+}
+#contenido div:nth-child(3n+1){
+	margin-left: 0px;
+}
+/*TEercer div, sexto div, etc*/
+#contenido div:nth-child(3n){
+	margin-left: 0px;
+}
+.boton{
+	width: 92%;
+	margin: 5px auto;
+
+}
+.boton:hover{
+	background: #85C1E9;
+}
+.boton a{
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	display: block;
+}
+/*CONTENIDO DE LA PAGINA PLANES*/
+.planes{
+	width: 94px;
+	background: white;
+	padding: 1% 3%;
+}
+.planes h1{
+	text-align: left;
+	font-size: 1.5em;
+}
+.planes .precio{
+	font-size: 1.1em;
+	margin: 20px 0px 5px;
+	padding-bottom: 15px;
+	border-bottom: solid 2px #21618C;
+	font-weight: bold;
+}
+#galeria .plan p{
+	clear: both;
+}
+#galeria .plan{
+	font-size: 0.8em;
+	margin: 10px auto;
+	padding-bottom: 10px;
+	width: 44%;
+	text-align: center;
+	font-style: italic;
+	float: none;
+}
+#superior #encabezado #imgDesc img{
+	float:left;
+	width: 62.5%; /* 600/960= 62.5% */
+   height: auto;
+}
+#superior #encabezado #logo{
+	margin: 2% 0px;
+	width: 21%;
+}
+#galeria .plan img{
+	width: 90%;
+	height:auto;
+	margin: 5px 5%;
+}
+.planes img{
+	width: 100%;
+	border-radius: 15px;
+}
+
+#contenido img{
+	width: 100%;
+	position: relative;
+}
